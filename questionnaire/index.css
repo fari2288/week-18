@@ -1,0 +1,51 @@
+.wrapper {
+    display: flex;
+    justify-content: center;
+}
+.form {
+    display: flex;
+    padding-left: 5%;
+    padding-right: 5%;
+    justify-content: center;
+    flex-direction: column;
+    width: 500px;
+}
+.form__form,
+.form__header{
+    display: flex;
+    justify-content: center;
+}
+.button {
+    width: 100px;
+}
+.form__photo,
+.form__button{
+    display: flex;
+    justify-content: center;
+}
+input,
+select {
+    border: 1px solid #a7a7a7;
+    border-radius: 5px;
+
+}
+#nickname,
+#name,
+#surname,
+#online_phone,
+#email,
+#breed {
+    width: 220px;
+}
+.owner {
+    width: 300px;
+}
+input:required:valid,
+select:required:valid {
+    border-bottom-color: green;
+    border-top-color: green;
+    border-left-color: green;
+}
+.header {
+    text-align: center;
+}
