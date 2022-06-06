@@ -5,17 +5,21 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="/3/index.css">
 </head>
 <body>
-        Введите Ваше имя:<br>
-        <input type="text" id="name"><br>
-        Введите Ваш комментарий<br>
-        <textarea name="" id="comment" cols="30" rows="10"></textarea><br>
-        <button type="submit">Отправить</button>
-        <div id="container"></div>
+    <form action="">
+    Ваша аватарка:<br>
+    <div id="img1" style='background-image: url(https://pixelbox.ru/wp-content/uploads/2021/05/ava-vk-animal-91.jpg); background-size: cover;'></div>
+    Ваше имя:<br>
+<input type="text" id="author" name="имя" class="name"><br>
+Введите комментарий:<br>
+    <textarea id="comment" cols="30" rows="10"></textarea>
+<br>
+<button type="button" class="button">Send</button><br>
+    <div id="result"></div>
+</form>
 
-
-
-    <script src="/comments/index.js"></script>
+    <script src="/3/index.js"></script>
 </body>
 </html>
