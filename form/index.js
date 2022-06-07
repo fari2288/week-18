@@ -3,22 +3,20 @@ let errors = [];
 const button=document.querySelector('#login');
 
 button.addEventListener('click', checkAll);
-// let emailField=document.querySelector('#email')
 
 function checkValidity(input) {
     let validity = input.validity;
 
 
     if (validity.valueMissing) {
-        errors.push('Поле ' + input.id + ' не заполнено');
-    }
-    if (validity.badInput) {
-        errors.push('Плохой ввод');
-    }
-    if (validity.customError) {
-    errors.push('Ошибка ввода');
-}
-    if (validity.patternMismatch) {
+        errors.push('Поле ' + input.id + ' не заполнено');}
+//     if (validity.badInput) {
+//         errors.push('Плохой ввод');
+//     }
+//     if (validity.customError) {
+//     errors.push('Ошибка ввода');
+// }
+    if (validity.typeMismatch) {
     errors.push('Неверный формат заполнения '
     +input.id);
     }
