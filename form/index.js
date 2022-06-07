@@ -10,20 +10,12 @@ function checkValidity(input) {
 
     if (validity.valueMissing) {
         errors.push('Поле ' + input.id + ' не заполнено');}
-//     if (validity.badInput) {
-//         errors.push('Плохой ввод');
-//     }
-//     if (validity.customError) {
-//     errors.push('Ошибка ввода');
-// }
+
     if (validity.typeMismatch) {
     errors.push('Неверный формат заполнения '
     +input.id);
     }
-    if (validity.rangeOverflow) {
-    let max = getAttributeValue(input, 'max');
-    errors.push('Максимальное значение не может быть больше чем ' + max);
-    }
+    
     if (validity.rangeUnderflow) {
     let min = getAttributeValue(input, 'min');
     errors.push('Минимальное значение не может быть меньше чем ' + min);
