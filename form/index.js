@@ -19,16 +19,11 @@ function checkValidity(input) {
         errors.push('Password must contain at least 8 characters'
         );
         }
-    if (validity.rangeUnderflow) {
-    let min = getAttributeValue(input, 'min');
-    errors.push('Минимальное значение не может быть меньше чем ' + min);
-    }
 }
 
 function checkAll() {
     errors = [];
     let inputs = document.querySelectorAll('input');
-
 
     for (let input of inputs) {
         checkValidity(input);

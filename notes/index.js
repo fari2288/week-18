@@ -19,8 +19,9 @@ localStorage.setItem('name', container.innerHTML);
     document.querySelector('#name').value = "";
     document.querySelector('#note').value = "";
 }
-    let saveNoted=localStorage.getItem('name');
-    document.querySelector('#container').innerHTML+=saveNoted;
+
+let saveNoted=localStorage.getItem('name');
+document.querySelector('#container').innerHTML+=saveNoted;
 
 const button_reset=document.querySelector('#reset');
 button_reset.addEventListener('click', reset)
