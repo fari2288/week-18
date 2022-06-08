@@ -11,7 +11,7 @@ function checkValidity(input) {
         errors.push('Invalid format of ' + input.id);
     }
     if (validity.patternMismatch) {
-        errors.push('Password must contain at least 8 characters');
+        errors.push('Please choose a stronger password. Try a mix of letters, numbers, and symbols.');
     }
 }
 
