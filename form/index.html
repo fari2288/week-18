@@ -27,42 +27,40 @@
                 <form action="">
                 <div class="google__registration-form">
 
-                    <h4>Создайте аккаунт Google</h4>
+                    <h4>Create your Google Account</h4>
                 </div>
                 <form novalidate>
                     <div class="name">
-                        <input placeholder="Имя" id="name" required>
-                        <input placeholder="Фамилия" id="surname" required>
+                        <input placeholder="First name" id="name" required>
+                        <input placeholder="Last name" id="surname" required>
                     </div>
                     <div class="email">
-                        <input placeholder="Имя пользователя                                  @gmail.com" id="email"
+                        <input placeholder="Username                                  @gmail.com" id="email"
                             type="email" required>
                         <div class="emailrequirements">
-                            <h7 class="font">Можно использовать буквы латинского алфавита, цифры и точки.</h7>
+                            <h7 class="font">You can use letters, numbers & periods</h7>
                         </div>
 
-                        <div class="emailaddress"><a href class="link">Использовать текущий адрес электронной почты</a>
+                        <div class="emailaddress"><a href class="link">Use my current email address instead</a>
                         </div>
                     </div>
 
                     <div class="password">
-                        <input placeholder="Пароль" id="password" pattern="^(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{6,20}$"    required>
-                        <input placeholder="Подтвердить" id="confirmpassword" pattern="^(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{6,20}$" min="15" required></div>
+                        <input placeholder="Password" id="password" pattern="^(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,20}$"    required>
+                        <input placeholder="Confirm" id="confirmpassword" pattern="^(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,20}$" min="15" required></div>
                     <div class="passwordrequirements">
-                        <h7 class="font">Пароль должен содержать не менее восьми знаков, включать буквы, цифры и
-                            специальные
-                            символы</h7>
+                        <h7 class="font">Use 8 or more characters with a mix of letters, numbers & symbols</h7>
                     </div>
 
                     <div class="show">
                         <input type="checkbox" id="checkbox">
-                        <div class="showpassword">Показать пароль
+                        <div class="showpassword">Show password
                         </div>
                     </div>
                     <div class="error"></div>
                     <div class="buttons">
-                        <button type="button" class="btn-enter" id="entry">Войти</button>
-                        <button type="button" id="login" class="btn btn-primary">Далее</button>
+                        <button type="button" class="btn-enter" id="entry">Sign in instead</button>
+                        <button type="button" id="login" class="btn btn-primary">Next</button>
                     </div>
             </div>
             </form>

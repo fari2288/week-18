@@ -9,13 +9,16 @@ function checkValidity(input) {
 
 
     if (validity.valueMissing) {
-        errors.push('Поле ' + input.id + ' не заполнено');}
+        errors.push('Enter ' + input.id);}
 
     if (validity.typeMismatch) {
-    errors.push('Неверный формат заполнения '
+    errors.push('Invalid format of '
     +input.id);
     }
-    
+    if (validity.patternMismatch) {
+        errors.push('Password must contain at least 8 characters'
+        );
+        }
     if (validity.rangeUnderflow) {
     let min = getAttributeValue(input, 'min');
     errors.push('Минимальное значение не может быть меньше чем ' + min);
@@ -33,6 +36,6 @@ function checkAll() {
     document.querySelector('.error').innerHTML = errors.join('. <br>');
     if (document.querySelector('.error').innerHTML==''){
 const name=document.querySelector('#name').value;
-document.querySelector('.error').innerHTML=`Добро пожаловать, ${name}!`
+document.querySelector('.error').innerHTML=`Welcome, ${name}!`
     }
 }
