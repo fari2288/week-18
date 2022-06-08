@@ -1,137 +1,170 @@
 @import url('https://fonts.googleapis.com/css2?family=Ms+Madi&display=swap');
-@media screen and (min-width: 800px){
-.wrapper {
-    display: flex;
-    justify-content: center;
-}
-.google {
-    display: flex;
-    justify-content: center;
-    margin-top: 5%;
-    width: 750px;
-    border: 1px solid rgb(208, 199, 199);
-    border-radius: 10px;
-}
-.email {
-    width: 100%;
-}
-.enter {
-    border-style: none;
-}
-.font {
-    font-size: smaller;
-    color: grey;
-}
-.link {
-    text-decoration: none;
-}
-.google__registration {
-    width: 380px;
-}
-.google__registration-title {
-    margin-top: 10%;
-}
-.letter_g1{
-    color: rgb(45, 146, 189);
-}
-.letter_o1 {
-    color: red;
-}
-.letter_o2 {
-    color: yellow;
-}
-.letter_g2{
-    color: rgb(45, 146, 189)
-}
-.letter_l {
-    color: rgb(54, 181, 54);
-}
-.letter_e {
-    color: red;
-}
-.name {
-    display: flex;
-    justify-content: space-between ;
-    width: 100%;
-    margin-bottom: 10%;
-    margin-top: 5%;
-}
-.password {
-    display: flex;
-    justify-content: space-between ;
-    width: 100%;
-    margin-top: 10%;
-}
-#name,
-#surname,
-#password,
-#confirmpassword {
-    width: 49%;
-    height: 30px;
-    border-radius: 5px;
-    border-style: none;
-    border: 1px solid rgb(228, 215, 215);
-}
-#email {
-    display: flex;
-    justify-content: center;
-    border: 1px solid rgb(242, 221, 221);
-    width: 100%;
-}
-.emailrequirements {
-    margin-left: 5%;
-}
-.emailaddress {
-    margin-top: 5%;
-}
-.passwordrequirements {
-    margin-left: 5%;
-    color: grey;
-}
-.show {
-    display: flex;
-    align-items: center;
-}
-.showpassword {
-    padding-left: 5%;
-}
-.buttons {
-    display: flex;
-    justify-content: space-between;
-    margin-top: 5%;
+
+@media screen and (min-width: 800px) {
+    .wrapper {
+        display: flex;
+        justify-content: center;
+    }
+
+    .google {
+        display: flex;
+        justify-content: center;
+        margin-top: 5%;
+        width: 750px;
+        border: 1px solid rgb(208, 199, 199);
+        border-radius: 10px;
+    }
+
+    .email {
+        width: 100%;
+    }
+
+    .enter {
+        border-style: none;
+    }
+
+    .font {
+        font-size: smaller;
+        color: grey;
+    }
+
+    .link {
+        text-decoration: none;
+    }
+
+    .google__registration {
+        width: 380px;
+    }
+
+    .google__registration-title {
+        margin-top: 10%;
+    }
+
+    .letter_g1 {
+        color: rgb(45, 146, 189);
+    }
+
+    .letter_o1 {
+        color: red;
+    }
+
+    .letter_o2 {
+        color: yellow;
+    }
+
+    .letter_g2 {
+        color: rgb(45, 146, 189)
+    }
+
+    .letter_l {
+        color: rgb(54, 181, 54);
+    }
+
+    .letter_e {
+        color: red;
+    }
+
+    .name {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        margin-bottom: 10%;
+        margin-top: 5%;
+    }
+
+    .password {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        margin-top: 10%;
+    }
+
+    #name,
+    #surname,
+    #password,
+    #confirmpassword {
+        width: 49%;
+        height: 30px;
+        border-radius: 5px;
+        border-style: none;
+        border: 1px solid rgb(228, 215, 215);
+    }
+
+    #email {
+        display: flex;
+        justify-content: center;
+        border: 1px solid rgb(242, 221, 221);
+        width: 100%;
+    }
+
+    .emailrequirements {
+        margin-left: 5%;
+    }
+
+    .emailaddress {
+        margin-top: 5%;
+    }
+
+    .passwordrequirements {
+        margin-left: 5%;
+        color: grey;
+    }
+
+    .show {
+        display: flex;
+        align-items: center;
+    }
+
+    .showpassword {
+        padding-left: 5%;
+    }
+
+    .buttons {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 5%;
 
 
+    }
+
+    .btn-enter {
+        color: rgb(42, 145, 177);
+        border-style: none;
+        background: none;
+        font-family: 'Akshar', sans-serif;
+    }
+
+    .google__image {
+        display: flex;
+        width: 300px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .image {
+        width: 230px;
+    }
+
+    .btn-primary {
+        width: 100px;
+    }
+
+    .text {
+        text-align: center;
+    }
+
+    .error {
+        width: 100%;
+        color: red;
+    }
 }
-.btn-enter {
-    color: rgb(42, 145, 177);
-    border-style: none;
-    background: none;
-    font-family: 'Akshar', sans-serif;
-}
-.google__image {
-    display: flex;
-    width: 300px;
-    justify-content: center;
-    align-items: center;
-}
-.image {
-    width: 230px;
-}
-.btn-primary {
-    width: 100px;
-}
-.text {
-    text-align: center;
-}
-.error {width: 100%;
-    color: red;
-}
-}
+
 @media (min-width: 600px) and (max-width: 800px) {
     .wrapper {
         display: flex;
         justify-content: center;
     }
+
     .google {
         display: flex;
         justify-content: center;
@@ -140,96 +173,119 @@
         border: 1px solid rgb(208, 199, 199);
         border-radius: 10px;
     }
+
     .email {
         width: 100%;
     }
+
     .enter {
         border-style: none;
     }
+
     .font {
         font-size: smaller;
         color: grey;
     }
+
     .link {
         text-decoration: none;
     }
+
     .google__registration {
         width: 450px;
     }
+
     .google__registration-title {
         margin-top: 10%;
     }
-    .letter_g1{
+
+    .letter_g1 {
         color: rgb(45, 146, 189);
     }
+
     .letter_o1 {
         color: red;
     }
+
     .letter_o2 {
         color: yellow;
     }
-    .letter_g2{
+
+    .letter_g2 {
         color: rgb(45, 146, 189)
     }
+
     .letter_l {
         color: rgb(54, 181, 54);
     }
+
     .letter_e {
         color: red;
     }
+
     .name {
         display: flex;
-        justify-content: space-between ;
+        justify-content: space-between;
         width: 100%;
         margin-bottom: 10%;
         margin-top: 5%;
     }
+
     .password {
         display: flex;
-        justify-content: space-between ;
+        justify-content: space-between;
         width: 100%;
         margin-top: 10%;
     }
+
     #name,
     #surname,
     #password,
-    #confirmpassword{
+    #confirmpassword {
         width: 49%;
         height: 30px;
         border-radius: 5px;
         border-style: none;
         border: 1px solid rgb(228, 215, 215);
     }
+
     #email {
         display: flex;
         justify-content: center;
         border: 1px solid rgb(242, 221, 221);
         width: 100%;
     }
+
     .emailrequirements {
         margin-left: 5%;
     }
+
     .emailaddress {
         margin-top: 5%;
     }
+
     .passwordrequirements {
         margin-left: 5%;
         color: grey;
     }
+
     .show {
         display: flex;
         align-items: center;
     }
+
     .showpassword {
         padding-left: 5%;
     }
+
     .buttons {
         display: flex;
         justify-content: space-between;
         margin-top: 5%;
-    
-    
+
+
     }
+
     .btn-enter {
         color: rgb(42, 145, 177);
         border-style: none;
@@ -241,11 +297,13 @@
         display: none;
     }
 }
+
 @media screen and (max-width: 600px) {
     .wrapper {
         display: flex;
         justify-content: center;
     }
+
     .google {
         display: flex;
         justify-content: center;
@@ -254,96 +312,119 @@
         border: 1px solid rgb(208, 199, 199);
         border-radius: 10px;
     }
+
     .email {
         width: 100%;
     }
+
     .enter {
         border-style: none;
     }
+
     .font {
         font-size: smaller;
         color: grey;
     }
+
     .link {
         text-decoration: none;
     }
+
     .google__registration {
         width: 450px;
     }
+
     .google__registration-title {
         margin-top: 10%;
     }
-    .letter_g1{
+
+    .letter_g1 {
         color: rgb(45, 146, 189);
     }
+
     .letter_o1 {
         color: red;
     }
+
     .letter_o2 {
         color: yellow;
     }
-    .letter_g2{
+
+    .letter_g2 {
         color: rgb(45, 146, 189)
     }
+
     .letter_l {
         color: rgb(54, 181, 54);
     }
+
     .letter_e {
         color: red;
     }
+
     .name {
         display: flex;
-        justify-content: space-between ;
+        justify-content: space-between;
         width: 100%;
         margin-bottom: 10%;
         margin-top: 5%;
     }
+
     .password {
         display: flex;
-        justify-content: space-between ;
+        justify-content: space-between;
         width: 100%;
         margin-top: 10%;
     }
+
     #name,
     #surname,
     #password,
-    #confirmpassword{
+    #confirmpassword {
         width: 49%;
         height: 30px;
         border-radius: 5px;
         border-style: none;
         border: 1px solid rgb(228, 215, 215);
     }
+
     #email {
         display: flex;
         justify-content: center;
         border: 1px solid rgb(242, 221, 221);
         width: 100%;
     }
+
     .emailrequirements {
         margin-left: 5%;
     }
+
     .emailaddress {
         margin-top: 5%;
     }
+
     .passwordrequirements {
         margin-left: 5%;
         color: grey;
     }
+
     .show {
         display: flex;
         align-items: center;
     }
+
     .showpassword {
         padding-left: 5%;
     }
+
     .buttons {
         display: flex;
         justify-content: space-between;
         margin-top: 5%;
-    
-    
+
+
     }
+
     .btn-enter {
         color: rgb(42, 145, 177);
         border-style: none;
@@ -354,4 +435,4 @@
     .google__image {
         display: none;
     }
-    }
+}
