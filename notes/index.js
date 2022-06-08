@@ -9,7 +9,8 @@ function addNotes() {
     if (name !== '' && note !== '') {
         container.innerHTML += name + '<br>' + note + '<br>';
         localStorage.setItem('name', container.innerHTML);
-    } else
+    } 
+    else
         (error.innerHTML += 'Добавьте заметку')
     document.querySelector('#name').value = "";
     document.querySelector('#note').value = "";
